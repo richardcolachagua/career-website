@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Typography,
-  Grid,
-  Card,
-  CardContent,
-  Link,
-  Grid2,
-} from "@mui/material";
+import { Typography, Card, CardContent, Link, Grid2 } from "@mui/material";
 
 function ResumeTips() {
   return (
@@ -27,8 +20,8 @@ function ResumeTips() {
         resumes. To ensure your resume gets past the ATS, make sure to:
       </Typography>
 
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={6}>
+      <Grid2 container spacing={3}>
+        <Grid2 item xs={12} sm={6}>
           <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
             <CardContent>
               <Typography variant="h5" gutterBottom>
@@ -48,10 +41,10 @@ function ResumeTips() {
               </Typography>
             </CardContent>
           </Card>
-        </Grid>
-      </Grid>
+        </Grid2>
+      </Grid2>
 
-      <Grid item xs={12} sm={6}>
+      <Grid2 item xs={12} sm={6}>
         <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
           <CardContent>
             <Typography variant="h5" gutterBottom>
@@ -72,9 +65,9 @@ function ResumeTips() {
             </Typography>
           </CardContent>
         </Card>
-      </Grid>
+      </Grid2>
 
-      <Grid item xs={12} sm={6}>
+      <Grid2 item xs={12} sm={6}>
         <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
           <CardContent>
             <Typography variant="h5" gutterBottom>
@@ -94,9 +87,9 @@ function ResumeTips() {
             </Typography>
           </CardContent>
         </Card>
-      </Grid>
+      </Grid2>
 
-      <Grid item xs={12} md={6}>
+      <Grid2 item xs={12} md={6}>
         <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
           <CardContent>
             <Typography variant="h5" gutterBottom>
@@ -115,7 +108,7 @@ function ResumeTips() {
             </Typography>
           </CardContent>
         </Card>
-      </Grid>
+      </Grid2>
     </div>
   );
 }
